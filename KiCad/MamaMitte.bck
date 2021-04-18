@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BANDAI2003
+D Bandai 2003 Mapper
+K mapper
+$ENDCMP
+#
+$CMP MBM29LV800TA
+D 8M (1Mx8/512Kx16) bit Flash Memory
+K nor
+$ENDCMP
+#
+$CMP S3511A
+D Real-time clock
+$ENDCMP
+#
+$CMP TC7W04FK
+D Triple Inverter Buffer Tri-State, Low-Voltage CMOS
+K Triple Inv Buff Tri-State LVC CMOS
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=20206&prodName=TC7W04FU
+$ENDCMP
+#
+$CMP WSCART
+D WonderSwan Cartridge Edge
+K cartridge, connector
+$ENDCMP
+#
+#End Doc Library
