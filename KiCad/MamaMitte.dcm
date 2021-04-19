@@ -14,6 +14,12 @@ $CMP S3511A
 D Real-time clock
 $ENDCMP
 #
+$CMP SPT2AF-6PF20PPM
+D Surface Mount Quartz Crystal for Low Frequencies
+K quartz resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP TC7W04FK
 D 3 Stage High Speed CMOS Buffer Inverter Gate, SSOP8-P-0.50A
 K inverter cmos
