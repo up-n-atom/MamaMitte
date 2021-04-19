@@ -53,7 +53,7 @@ Wire Notes Line
 	6375 4075 5325 4075
 Wire Notes Line
 	5325 4075 5325 3150
-Text Notes 5350 3125 0    50   ~ 0
+Text Notes 5325 3125 0    50   ~ 0
 Pull-ups
 $Comp
 L Device:C C5
@@ -152,7 +152,7 @@ Wire Notes Line
 	8175 4075 6550 4075
 Wire Notes Line
 	6550 4075 6550 3150
-Text Notes 6625 3125 0    50   ~ 0
+Text Notes 6550 3125 0    50   ~ 0
 Power
 Connection ~ 7775 3800
 Connection ~ 7350 3500
@@ -171,4 +171,52 @@ Wire Wire Line
 	6025 3800 6225 3800
 Wire Wire Line
 	6025 3500 6225 3500
+$Comp
+L Device:C C4
+U 1 1 607E4C2B
+P 3575 3325
+F 0 "C4" H 3690 3371 50  0000 L CNN
+F 1 "C609" H 3690 3280 50  0000 L CNN
+F 2 "" H 3613 3175 50  0001 C CNN
+F 3 "~" H 3575 3325 50  0001 C CNN
+	1    3575 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 607E5375
+P 3350 3175
+F 0 "#PWR?" H 3350 2925 50  0001 C CNN
+F 1 "GND" H 3355 3002 50  0000 C CNN
+F 2 "" H 3350 3175 50  0001 C CNN
+F 3 "" H 3350 3175 50  0001 C CNN
+	1    3350 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3175 3575 3175
+Wire Wire Line
+	3575 3475 3750 3475
+Wire Wire Line
+	3750 3475 3750 3575
+Wire Wire Line
+	3750 3575 4000 3575
+Wire Wire Line
+	3575 3775 3750 3775
+Wire Wire Line
+	3750 3775 3750 3675
+Wire Wire Line
+	3750 3675 4000 3675
+$Comp
+L MamaMitte:SPT2AF-6PF20PPM X1
+U 1 1 607ED854
+P 3575 3625
+F 0 "X1" V 3525 3500 50  0000 R CNN
+F 1 "SPT2AF-6PF20PPM" V 3600 2775 50  0000 L CNN
+F 2 "" H 3575 3625 50  0001 C CNN
+F 3 "~" H 3575 3625 50  0001 C CNN
+	1    3575 3625
+	0    1    1    0   
+$EndComp
+Connection ~ 3575 3475
 $EndSCHEMATC
