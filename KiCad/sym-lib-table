@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MamaMitte)(type Legacy)(uri ${KIPRJMOD}/MamaMitte.lib)(options "")(descr ""))
   (lib (name WonderWitch)(type Legacy)(uri ${KIPRJMOD}/../WonderWitch/Library/WonderSwan.lib)(options "")(descr ""))
+  (lib (name MamaMitte-rescue)(type Legacy)(uri ${KIPRJMOD}/MamaMitte-rescue.lib)(options "")(descr ""))
 )

@@ -14,10 +14,69 @@ $CMP S3511A
 D Real-time clock
 $ENDCMP
 #
+$CMP SPT2AF-6PF20PPM
+D Surface Mount Quartz Crystal for Low Frequencies
+K quartz resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP TC7W04FK
-D Triple Inverter Buffer Tri-State, Low-Voltage CMOS
-K Triple Inv Buff Tri-State LVC CMOS
+D 3 Stage High Speed CMOS Buffer Inverter Gate, SSOP8-P-0.50A
+K inverter cmos
 F https://toshiba.semicon-storage.com/info/docget.jsp?did=20206&prodName=TC7W04FU
+$ENDCMP
+#
+$CMP TFMM53xx
+D IR Receiver Modules for Data Transmission
+K opto IR receiver
+$ENDCMP
+#
+$CMP TSDP343xx
+D IR Receiver Modules for Data Transmission
+K opto IR receiver
+F http://www.vishay.com/docs/82667/tsdp341.pdf
+$ENDCMP
+#
+$CMP TSOP341xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP343xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP345xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82490/tsop321.pdf
+$ENDCMP
+#
+$CMP TSOP348xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F https://www.vishay.com/docs/82489/tsop322.pdf
+$ENDCMP
+#
+$CMP TSOP41xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP43xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
+$ENDCMP
+#
+$CMP TSOP45xx
+D IR Receiver Modules for Remote Control Systems
+K opto IR receiver
+F http://www.vishay.com/docs/82460/tsop45.pdf
 $ENDCMP
 #
 $CMP WSCART
