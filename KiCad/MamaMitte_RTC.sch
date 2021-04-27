@@ -56,17 +56,6 @@ Wire Notes Line
 Text Notes 5325 3125 0    50   ~ 0
 Pull-ups
 $Comp
-L Device:C C5
-U 1 1 609A6AFA
-P 7775 3650
-F 0 "C5" H 7890 3696 50  0000 L CNN
-F 1 "C103" H 7890 3605 50  0000 L CNN
-F 2 "MamaMitte:C_0402_1005Metric" H 7813 3500 50  0001 C CNN
-F 3 "~" H 7775 3650 50  0001 C CNN
-	1    7775 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 609A8C87
 P 5875 3800
@@ -103,66 +92,20 @@ F 3 "~" V 6775 3560 50  0001 C CNN
 	1    6775 3500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 60A6C168
-P 7775 3800
-F 0 "#PWR0113" H 7775 3550 50  0001 C CNN
-F 1 "GND" H 7780 3627 50  0000 C CNN
-F 2 "" H 7775 3800 50  0001 C CNN
-F 3 "" H 7775 3800 50  0001 C CNN
-	1    7775 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 60A744DC
-P 7125 3500
-F 0 "R7" V 7025 3500 50  0000 C CNN
-F 1 "R" V 7125 3500 50  0000 C CNN
-F 2 "MamaMitte:R_0402_1005Metric" V 7055 3500 50  0001 C CNN
-F 3 "~" H 7125 3500 50  0001 C CNN
-	1    7125 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 60A791F0
-P 7350 3650
-F 0 "C8" H 7465 3696 50  0000 L CNN
-F 1 "C105" H 7465 3605 50  0000 L CNN
-F 2 "MamaMitte:C_0402_1005Metric" H 7388 3500 50  0001 C CNN
-F 3 "~" H 7350 3650 50  0001 C CNN
-	1    7350 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6675 3800 6675 3500
-Text Label 7775 3500 0    50   ~ 0
-VBAT
-Wire Wire Line
-	7275 3500 7350 3500
 Text Label 5150 3500 2    50   ~ 0
-VBAT
+VRTC
 Wire Notes Line
-	6550 3150 8175 3150
+	6550 3150 8375 3150
 Wire Notes Line
-	8175 3150 8175 4075
+	8375 3150 8375 4075
 Wire Notes Line
-	8175 4075 6550 4075
+	8375 4075 6550 4075
 Wire Notes Line
 	6550 4075 6550 3150
 Text Notes 6550 3125 0    50   ~ 0
 Power
-Connection ~ 7775 3800
-Connection ~ 7350 3500
-Wire Wire Line
-	7350 3500 7775 3500
-Connection ~ 7350 3800
-Wire Wire Line
-	7350 3800 7775 3800
-Wire Wire Line
-	6675 3800 7350 3800
 Text Label 6225 3500 2    50   ~ 0
 VBAT
 Text Label 6225 3800 2    50   ~ 0
@@ -219,4 +162,65 @@ F 3 "~" H 3575 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 3575 3500
+Text Label 6975 3500 0    50   ~ 0
+VBAT
+Wire Wire Line
+	6675 3800 7550 3800
+Wire Wire Line
+	7550 3800 7975 3800
+Connection ~ 7550 3800
+Wire Wire Line
+	7550 3500 7975 3500
+Connection ~ 7550 3500
+Connection ~ 7975 3800
+Wire Wire Line
+	7475 3500 7550 3500
+Text Label 7975 3500 0    50   ~ 0
+VRTC
+$Comp
+L Device:C C8
+U 1 1 60A791F0
+P 7550 3650
+F 0 "C8" H 7665 3696 50  0000 L CNN
+F 1 "C105" H 7665 3605 50  0000 L CNN
+F 2 "MamaMitte:C_0402_1005Metric" H 7588 3500 50  0001 C CNN
+F 3 "~" H 7550 3650 50  0001 C CNN
+	1    7550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60A744DC
+P 7325 3500
+F 0 "R7" V 7225 3500 50  0000 C CNN
+F 1 "R" V 7325 3500 50  0000 C CNN
+F 2 "MamaMitte:R_0402_1005Metric" V 7255 3500 50  0001 C CNN
+F 3 "~" H 7325 3500 50  0001 C CNN
+	1    7325 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 60A6C168
+P 7975 3800
+F 0 "#PWR0113" H 7975 3550 50  0001 C CNN
+F 1 "GND" H 7980 3627 50  0000 C CNN
+F 2 "" H 7975 3800 50  0001 C CNN
+F 3 "" H 7975 3800 50  0001 C CNN
+	1    7975 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 609A6AFA
+P 7975 3650
+F 0 "C5" H 8090 3696 50  0000 L CNN
+F 1 "C103" H 8090 3605 50  0000 L CNN
+F 2 "MamaMitte:C_0402_1005Metric" H 8013 3500 50  0001 C CNN
+F 3 "~" H 7975 3650 50  0001 C CNN
+	1    7975 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 3500 7175 3500
 $EndSCHEMATC

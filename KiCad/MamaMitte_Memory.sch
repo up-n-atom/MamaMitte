@@ -120,35 +120,35 @@ Q0
 Wire Wire Line
 	6050 3750 6250 3750
 Text Label 6050 3750 0    50   ~ 0
-A21
+SA21
 Wire Wire Line
 	6050 4150 6250 4150
 Text Label 6050 4150 0    50   ~ 0
-A20
+SA19
 Wire Wire Line
 	6050 4250 6250 4250
 Text Label 6050 4250 0    50   ~ 0
-A19
+SA20
 Wire Wire Line
-	2875 3750 3200 3750
-Text Label 2875 3750 0    50   ~ 0
-A21
+	2825 3750 3200 3750
+Text Label 2825 3750 0    50   ~ 0
+SA21
 Wire Wire Line
-	2875 3450 3200 3450
-Text Label 2875 3450 0    50   ~ 0
-A20
+	2825 3450 3200 3450
+Text Label 2825 3450 0    50   ~ 0
+SA20
 Wire Wire Line
-	2875 3350 3200 3350
-Text Label 2875 3350 0    50   ~ 0
-A19
+	2825 3350 3200 3350
+Text Label 2825 3350 0    50   ~ 0
+SA19
 Wire Wire Line
-	2875 4050 3200 4050
-Text Label 2875 4050 0    50   ~ 0
-A18
+	2825 4050 3200 4050
+Text Label 2825 4050 0    50   ~ 0
+SA18
 Wire Wire Line
-	2875 4150 3200 4150
-Text Label 2875 4150 0    50   ~ 0
-A17
+	2825 4150 3200 4150
+Text Label 2825 4150 0    50   ~ 0
+SA17
 Text GLabel 4600 4850 2    50   Input ~ 0
 A0
 Text GLabel 6250 3350 0    50   Input ~ 0
@@ -207,27 +207,27 @@ NoConn ~ 6250 4550
 Wire Wire Line
 	6050 4350 6250 4350
 Text Label 6050 4350 0    50   ~ 0
-A18
+SA18
 Wire Wire Line
 	6050 4450 6250 4450
 Text Label 6050 4450 0    50   ~ 0
-A17
+SA17
 Wire Wire Line
 	6050 3850 6250 3850
 Text Label 6050 3850 0    50   ~ 0
-A16
+SA16
 Wire Wire Line
-	2875 2550 3200 2550
-Text Label 2875 2550 0    50   ~ 0
-A15
+	2825 2550 3200 2550
+Text Label 2825 2550 0    50   ~ 0
+SA15
 Wire Wire Line
 	6050 3950 6250 3950
 Text Label 6050 3950 0    50   ~ 0
-A15
+SA15
 Wire Wire Line
 	4800 2550 4600 2550
 Text Label 4800 2550 2    50   ~ 0
-A16
+SA16
 Wire Wire Line
 	4600 4750 4800 4750
 Text Label 4800 4750 2    50   ~ 0
